@@ -51,7 +51,7 @@ Simulates IoT air quality monitoring sensors with realistic characteristics.
 ### 2. AQICalculator Class
 
 Calculates Air Quality Index based on pollutant levels using EPA standard breakpoints.
-
+...
 **Key Methods:**
 - `calculate_aqi(pm25, pm10, co)`: Computes overall AQI from multiple pollutants
 - `_calculate_individual_aqi(concentration, breakpoints)`: Calculates individual pollutant AQI
